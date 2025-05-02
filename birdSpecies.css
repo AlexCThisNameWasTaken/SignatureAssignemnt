@@ -1,0 +1,21 @@
+header {
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid black;
+	padding: 10px;
+	height: 100px;
+	border-top: 5px solid red;
+	width: 100%;
+}
+
+hr {
+	border: 5px solid black;
+	border-radius: 5px;
+}
+
+#title {
+	font-size: 40px;
+}
+
+.mainHeader {
+	
