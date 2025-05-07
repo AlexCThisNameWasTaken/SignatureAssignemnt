@@ -1,0 +1,89 @@
+.wrap {
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	background-color: #F5F5DC;
+	color: #333333;
+	font-family: 'Open Sans', 'Lora', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	color: #2F4F4F;
+	font-family: 'Merriweather', 'EB-Garamond', serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid black;
+	padding: 10px;
+	height: 70px;
+	background-color: #F5F5DC;
+
+}
+
+#homeImage {
+	width: 350px;
+	height: 150px;
+}
+
+
+
+aside {
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	background-image: url(assets/birdIcon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: 'Montserat', 'Poppins', sans-serif;
+	margin-top: 10px;
+}
+
+main {
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+footer {
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.contentArea {
+	display: flex;
+}
+
+header ul {
+	float: right;
+	display: inline;
+	list-style-type: none;
+	color: black;
+}
+header li {
+	display: inline-block;
+	padding: 10px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	background-color: #F5F5DC;
+	margin: -5px;
+}
+header a li {
+	text-decoration: none;
+	color: black;
+}
+header li:hover {
+	background-color: #3E704D;
+	text-decoration: underline;
+}
+header a li:hover {
+	color: white;
+	background-color: #3E704D;
+	
+}
