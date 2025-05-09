@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Bird Web - Gallery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="assets/birdIcon.ico">
+		<link rel="stylesheet" href="sigAssignment.css">
+		<style>
+			.gallery {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 20px;
+				margin-top: 30px;
+			}
+			
+			.card {
+			width: 250px;
+			border: 1px solid #cccccc;
+			border-radius: 10px;
+			overflow: hidden;
+			background-color: #ffffff;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+			text-align: center;
+			}
+			
+			.card img {
+			width: 100%;
+			height: 180px;
+			}
+			
+			.card h3 {
+			margin 10px;
+			color: #2f4f4f;
+			}
+			
+			.card a {
+			text-decoration: none;
+			color: #2f4f4f;
+			display: block;
+			padding: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<header>
+				<h1>The Bird Web</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Page</a></li>
+						<li><a href="contact.html">Contact Page</a></li>
+						<li><a href="BirdWeb.html">The Bird Web</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<main>
+				<h2>Explore Our Birds</h2>
+				<div class="gallery">
+					<div class="card">
+						<a href="robin.html">
+							<img src="assets/robin.jpg" alt="American Robin">
+							<h3>American Robin</h3>
+						</a>
+					</div>
+					<div class="card">
+						<a href="northernCardinal.html">
+							<img src="assets/northernCardinal.jpg" alt="Northern Cardinal">
+							<h3>Northern Cardinal</h3>
+						</a>
+					</div>
+					<div class="card">
+						<a href="blueJay.html">
+							<img src="assets/blueJay.jpg" alt="Blue Jay">
+							<h3>Blue Jay</h3>
+						</a>
+					</div>
+				</div>
+			</main>
+			
+			<hr>
+			<div class="attributions">
+				<h3>Attributions to images</h3>
+				<p> Blue Jay Image - <a href="https://pixabay.com" target="_blank">pixabay.com</a>(Creative Commons)</p>
+				<p> Northern Cardinal Image - Northern Cardinal image from <a href="https://www.flickr.com/photos/snpphotos/31627206588/in/photostream/" target="_blank">flickr.com</a>(Creative Commons)</p>
+				<p> Robin Image - <a href="https://islandinthenet.com/american-robin/" target="_blank">islandinthenet.com</a>(Creative Commons)</p>
+			</div>
+			
+			<footer>
+				<p>The Bird Web</p>
+				<i><small>Copyright &copy; 2025 Alexandru Catan</small></i>
+				<div><a href="mailto:28cataal@students.lovelandschools.org"><small><i>28cataal@students.lovelandschools.org</i></small></a></div>
+			</footer>
+		</div>
+	</body>
+</html>
